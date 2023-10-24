@@ -66,11 +66,10 @@
     <Compile Include="Assets\Scripts\BackgroundLoop.cs" />
     <Compile Include="Assets\Scripts\Platform.cs" />
     <Compile Include="Assets\Scripts\ItemSpawner.cs" />
-    <Compile Include="Assets\ItemCoin.cs" />
-    <Compile Include="Assets\Scripts\SkillBtn.cs" />
+    <Compile Include="Assets\Scripts\ItemShield.cs" />
     <Compile Include="Assets\Scripts\ItemHeal.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\ItemShield.cs" />
+    <Compile Include="Assets\Scripts\ItemCoin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Font\License.txt" />

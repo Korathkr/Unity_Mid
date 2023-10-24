@@ -18,6 +18,10 @@ public class ItemJump : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameObject.transform.position.x < -11.00f)
+        {
+            Destroy(gameObject);
+        }
         // 타이머가 활성화되었을 때만 타이머를 갱신합니다.
         if (GameManager.instance.isTimerActive)
         {

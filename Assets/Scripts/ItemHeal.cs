@@ -13,7 +13,10 @@ public class ItemHeal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (gameObject.transform.position.x < -11.00f)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -7,6 +7,7 @@ TagManager:
   - Dead
   - DeadZone
   - Invincible
+  - Destroy
   layers:
   - Default
   - TransparentFX
